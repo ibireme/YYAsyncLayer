@@ -24,17 +24,17 @@ Simple Usage
 
     - (void)setText:(NSString *)text {
         _text = text.copy;
-        [YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)];
+        [[YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)] commit];
     }
 	
     - (void)setFont:(UIFont *)font {
         _font = font;
-        [YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)];
+        [[YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)] commit];
     }
     
     - (void)layoutSubviews {
         [super layoutSubviews];
-        [YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)];
+        [[YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)] commit];
     }
 
     - (void)contentsNeedUpdated {
@@ -147,17 +147,17 @@ iOS 异步绘制与显示的工具类。<br/>
 
     - (void)setText:(NSString *)text {
         _text = text.copy;
-        [YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)];
+        [[YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)] commit];
     }
 	
     - (void)setFont:(UIFont *)font {
         _font = font;
-        [YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)];
+        [[YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)] commit];
     }
     
     - (void)layoutSubviews {
         [super layoutSubviews];
-        [YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)];
+        [[YYTransaction transactionWithTarget:self selector:@selector(contentsNeedUpdated)] commit];
     }
 
     - (void)contentsNeedUpdated {

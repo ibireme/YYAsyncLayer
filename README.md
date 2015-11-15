@@ -3,8 +3,8 @@ YYAsyncLayer <a href="#中文介绍">中文介绍</a>
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYAsyncLayer/master/LICENSE)&nbsp;
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)&nbsp;
-[![Cocoapods](http://img.shields.io/cocoapods/v/YYAsyncLayer.svg?style=flat)](http://cocoapods.org/?q=YYAsyncLayer)&nbsp;
-[![Cocoapods](http://img.shields.io/cocoapods/p/YYAsyncLayer.svg?style=flat)](http://cocoapods.org/?q=YYAsyncLayer)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/v/YYAsyncLayer.svg?style=flat)](http://cocoapods.org/?q=YYAsyncLayer)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/YYAsyncLayer.svg?style=flat)](http://cocoapods.org/?q=YYAsyncLayer)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 [![Build Status](https://travis-ci.org/ibireme/YYAsyncLayer.svg?branch=master)](https://travis-ci.org/ibireme/YYAsyncLayer)
 
@@ -88,7 +88,7 @@ Simple Usage
 Installation
 ==============
 
-### Cocoapods
+### CocoaPods
 
 1. Add `pod "YYAsyncLayer"` to your Podfile.
 2. Run `pod install` or `pod update`.
@@ -211,7 +211,7 @@ iOS 异步绘制与显示的工具类。<br/>
 安装
 ==============
 
-### Cocoapods
+### CocoaPods
 
 1. 在 Podfile 中添加 `pod "YYAsyncLayer"`。
 2. 执行 `pod install` 或 `pod update`。

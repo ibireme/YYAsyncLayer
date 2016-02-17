@@ -39,7 +39,7 @@ Simple Usage
 
     - (void)contentsNeedUpdated {
         // do update
-        [self setNeedsDisplay];
+        [self.layer setNeedsDisplay];
     }
 	
     #pragma mark - YYAsyncLayer
@@ -162,7 +162,7 @@ iOS 异步绘制与显示的工具类。<br/>
 
     - (void)contentsNeedUpdated {
         // do update
-        [self setNeedsDisplay];
+        [self.layer setNeedsDisplay];
     }
 	
     #pragma mark - YYAsyncLayer

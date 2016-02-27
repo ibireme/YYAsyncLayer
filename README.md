@@ -90,7 +90,7 @@ Installation
 
 ### CocoaPods
 
-1. Add `pod "YYAsyncLayer"` to your Podfile.
+1. Add `pod 'YYAsyncLayer'` to your Podfile.
 2. Run `pod install` or `pod update`.
 3. Import \<YYAsyncLayer/YYAsyncLayer.h\>.
 
@@ -117,7 +117,7 @@ You can also install documentation locally using [appledoc](https://github.com/t
 
 Requirements
 ==============
-This library requires a deployment target of iOS 6.0 or greater.
+This library requires `iOS 6.0+` and `Xcode 7.0+`.
 
 
 License
@@ -213,7 +213,7 @@ iOS 异步绘制与显示的工具类。<br/>
 
 ### CocoaPods
 
-1. 在 Podfile 中添加 `pod "YYAsyncLayer"`。
+1. 在 Podfile 中添加 `pod 'YYAsyncLayer'`。
 2. 执行 `pod install` 或 `pod update`。
 3. 导入 \<YYAsyncLayer/YYAsyncLayer.h\>。
 
@@ -239,7 +239,7 @@ iOS 异步绘制与显示的工具类。<br/>
 
 系统要求
 ==============
-该项目最低支持 iOS 6.0。
+该项目最低支持 `iOS 6.0` 和 `Xcode 7.0`。
 
 
 许可证

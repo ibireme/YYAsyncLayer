@@ -3,8 +3,8 @@ YYAsyncLayer
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYAsyncLayer/master/LICENSE)&nbsp;
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)&nbsp;
-[![CocoaPods](http://img.shields.io/cocoapods/v/YYAsyncLayer.svg?style=flat)](http://cocoapods.org/?q=YYAsyncLayer)&nbsp;
-[![CocoaPods](http://img.shields.io/cocoapods/p/YYAsyncLayer.svg?style=flat)](http://cocoapods.org/?q=YYAsyncLayer)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/v/YYAsyncLayer.svg?style=flat)](http://cocoapods.org/pods/YYAsyncLayer)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/YYAsyncLayer.svg?style=flat)](http://cocoadocs.org/docsets/YYAsyncLayer)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 [![Build Status](https://travis-ci.org/ibireme/YYAsyncLayer.svg?branch=master)](https://travis-ci.org/ibireme/YYAsyncLayer)
 
@@ -118,7 +118,7 @@ You can also install documentation locally using [appledoc](https://github.com/t
 
 Requirements
 ==============
-This library requires `iOS 6.0+` and `Xcode 7.0+`.
+This library requires `iOS 6.0+` and `Xcode 8.0+`.
 
 
 License
@@ -241,7 +241,7 @@ iOS 异步绘制与显示的工具类。<br/>
 
 系统要求
 ==============
-该项目最低支持 `iOS 6.0` 和 `Xcode 7.0`。
+该项目最低支持 `iOS 6.0` 和 `Xcode 8.0`。
 
 
 许可证

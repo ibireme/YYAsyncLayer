@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'YYAsyncLayer'
   s.summary      = 'iOS utility classes for asynchronous rendering and display.'
-  s.version      = '1.0'
+  s.version      = '1.0.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'

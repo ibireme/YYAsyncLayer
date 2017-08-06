@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		D9767DEB1F04B17000288559 /* YYAsyncLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYAsyncLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9767DEF1F04B17000288559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9767DEF1F04B17000288559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Framework/Info.plist; sourceTree = "<group>"; };
 		D9767DF71F04B1B100288559 /* YYAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAsyncLayer.h; sourceTree = "<group>"; };
 		D9767DF81F04B1B100288559 /* YYAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAsyncLayer.m; sourceTree = "<group>"; };
 		D9767DF91F04B1B100288559 /* YYSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSentinel.h; sourceTree = "<group>"; };
@@ -41,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				D9767DF61F04B1B100288559 /* YYAsyncLayer */,
-				D9767DEF1F04B17000288559 /* Info.plist */,
 				D9767DEC1F04B17000288559 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +62,7 @@
 				D9767DFA1F04B1B100288559 /* YYSentinel.m */,
 				D9767DFB1F04B1B100288559 /* YYTransaction.h */,
 				D9767DFC1F04B1B100288559 /* YYTransaction.m */,
+				D9767DEF1F04B17000288559 /* Info.plist */,
 			);
 			name = YYAsyncLayer;
 			path = ../YYAsyncLayer;
@@ -266,6 +266,7 @@
 		D9767DF41F04B17000288559 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -284,6 +285,7 @@
 		D9767DF51F04B17000288559 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

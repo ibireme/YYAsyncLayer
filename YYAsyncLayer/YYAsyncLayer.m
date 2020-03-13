@@ -58,6 +58,8 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
 #endif
 }
 
+static CGFloat layerContentScale = 1.0; // 使用这个解决scale为1的问题，这个异步渲染库有bug，YYText那里把contentScale重置了，所以看不到
+
 
 @implementation YYAsyncLayerDisplayTask
 @end
@@ -83,6 +85,7 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         scale = [UIScreen mainScreen].scale;
+        layerContentScale = scale;
     });
     self.contentsScale = scale;
     _sentinel = [YYSentinel new];
@@ -107,6 +110,7 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
 #pragma mark - Private
 
 - (void)_displayAsync:(BOOL)async {
+    self.contentsScale = layerContentScale;
     __strong id<YYAsyncLayerDelegate> delegate = (id)self.delegate;
     YYAsyncLayerDisplayTask *task = [delegate newAsyncDisplayTask];
     if (!task.display) {
